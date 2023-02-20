@@ -1,0 +1,141 @@
+html {
+	height: 100%;
+}
+body {
+	overflow: scroll;
+	background-color: white;
+	margin: 0px;
+	height: 100%;
+}
+h2 {
+	font-family: 'Share Tech';
+	font-size: 30px;
+}
+p {
+	font-family: "Varela Round";
+	text-align: center;
+	font-size: 20px;
+	padding-top: 0;
+	color: black;
+}
+a {
+	text-decoration: none;
+	color: #E1341E;
+}
+ul {
+	padding: 0;
+	padding-inline-start: 0;
+	justify-content: center;
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	width: 100%;
+}
+li {
+	font-family: "Varela Round";
+	width: calc((100% / 7) - 2px);
+	border: 1px solid black;
+	border-collapse: collapse;
+	vertical-align: top;
+	text-align: left;
+}
+a:hover {
+	text-decoration: none;
+	color: LightGrey;
+}
+.week li {
+	height: 100%;
+}
+.days li {
+	height: calc((100% / 5) - 2px);
+}
+.white {
+	background-color: white;
+}
+.gray {
+	background-color: DarkGray;
+	color: white;
+}
+.calendar {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	background-color: white;
+}
+.week {
+	height: 5%;
+	font-weight: 500;
+	margin: 0 0 0 0;
+}
+.days {
+	height: 95%;
+	margin: 0 0 0 0;
+}
+#calenbar button {
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#month {
+	text-align: center;
+	padding: 0;
+	vertical-align: center;
+}
+#navbar {
+	background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+	min-height: 6%;
+	border: 0px;
+}
+#main {
+	padding-top: 0;
+	border: 0;
+	margin: 0;
+	width: 100%;
+}
+#about {
+	display: block;
+	float: left;
+	position: relative;
+	margin:0px;
+	padding-right: 10px;
+	left: 5%;
+}
+#calendar {
+	display: block;
+	position: relative;
+	margin: 0px;
+	padding-left: 10px;
+	right: 5%;
+}
+#calenbar {
+	background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	height: 7%;
+	margin-top: 2%;
+	border: 0;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+#navbar h2 {
+	display: block;
+	font-family: 'Share Tech';
+	text-align: center;
+	float: top center;
+	font-size: 100%;
+	width: 55px;
+}
+#navbar h1 {
+	display: block;
+	font-family: 'Share Tech';
+	text-align: center;
+	float: top center;
+	font-size: 150%;
+}
